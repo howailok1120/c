@@ -1,0 +1,15 @@
+//print a-z using for in C
+
+#include <stdio.h>
+int main( void ) {
+char alphabet[26];
+int i;
+char c = 'a';
+    
+    for(i = 0; i < 26; c++, i++) //save into array
+        alphabet [i] = c;
+    for (i = 0; i < 26; i++) //read from array
+        printf ("%c", alphabet[i]);
+        
+ return 0;
+}
