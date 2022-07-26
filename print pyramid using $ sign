@@ -1,0 +1,12 @@
+//print pyramid using $ sign
+
+#include <stdio.h>
+int main( void ) {
+    int i, j;
+    for (i = 1; i <=5; i++){ //repeat only for 5 times
+            for (j = 0; j <i; j++)
+            printf("$");
+        printf("\n");
+    }
+ return 0;
+}
