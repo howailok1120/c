@@ -1,4 +1,14 @@
-/* binary.c -- prints integer in binary form */
+/* binary.c -- prints integer in binary form 
+5/2= 2 .5 (奇數Get: 1)
+Get: 1
+
+2/2=0 (應為2.5 但整數除法得2, 冇餘數Get 1)
+Get: 0
+
+1%2= 有餘數0.5 (2除2得1)
+Get: 1*/
+
+
 #include <stdio.h>
 void to_binary(unsigned long n);
 
